@@ -10,33 +10,31 @@ If you know a tool that isn't present here, feel free to open a pull request.
 ## Why?
 
 It takes time to build up a collection of tools used in APT research and remember them all. This repo helps to keep all these scattered tools in one place.
-
 ## Contents
 
-- **Awesome APT**
-  - Attack Simulation
-    - Initial Access
-    - Persistence
-    - Lateral Movement
-    - Command & Control
-    - Data Exfiltration
-  - Defense & Detection
-    - Threat Hunting
-    - Behavioral Analysis
-    - Network Analysis
-    - Memory Forensics
-    - Malware Analysis
-    - Endpoint Detection & Response
-    - Threat Intelligence Platforms
-- Resources
-  - Operating Systems
-  - Starter Packs
-  - Tutorials & Courses
-  - Lab Environments
-  - Websites & Blogs
-  - Wikis & Knowledge Bases
-  - Analysis Reports
-
+- **[Awesome APT](#awesome-apt)**
+  - [Attack Simulation](#attack-simulation)
+    - [Initial Access](#initial-access)
+    - [Persistence](#persistence)
+    - [Lateral Movement](#lateral-movement)
+    - [Command & Control](#command--control)
+    - [Data Exfiltration](#data-exfiltration)
+  - [Defense & Detection](#defense--detection)
+    - [Threat Hunting](#threat-hunting)
+    - [Behavioral Analysis](#behavioral-analysis)
+    - [Network Analysis](#network-analysis)
+    - [Memory Forensics](#memory-forensics)
+    - [Malware Analysis](#malware-analysis)
+    - [Endpoint Detection & Response](#endpoint-detection--response)
+    - [Threat Intelligence Platforms](#threat-intelligence-platforms)
+- [Resources](#resources)
+  - [Operating Systems](#operating-systems)
+  - [Starter Packs](#starter-packs)
+  - [Tutorials & Courses](#tutorials--courses)
+  - [Lab Environments](#lab-environments)
+  - [Websites & Blogs](#websites--blogs)
+  - [Wikis & Knowledge Bases](#wikis--knowledge-bases)
+  - [Analysis Reports](#analysis-reports)
 ---
 
 ## Attack Simulation
