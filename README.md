@@ -4,7 +4,7 @@ A curated list of Advanced Persistent Threat (APT) frameworks, tools, resources,
 
 ## Contributing
 
-Please take a quick look at the [contribution](https://github.com/ADA-XiaoYao/awesome-APT/CONTRIBUTING.md) first.  
+Please take a quick look at the [contribution]([https://github.com/ADA-XiaoYao/awesome-APT/blob/main/CONTRIBUTING.md]) first.  
 
 If you know a tool that isn't present here, feel free to open a pull request.
 
