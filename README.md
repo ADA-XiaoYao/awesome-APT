@@ -39,55 +39,91 @@ It takes time to build up a collection of tools used in APT research and remembe
 
 ## Attack Simulation
 
-Tools and frameworks for simulating APT attack chains
+### Frameworks & Platforms
 
-- [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) - Web-based tool for navigating and planning with the ATT&CK matrix.
-- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - Library of tests mapped to ATT&CK techniques.
-- [Caldera](https://github.com/mitre/caldera) - Automated adversary emulation platform by MITRE.
-- [Cobalt Strike](https://www.cobaltstrike.com/) - Commercial red team and APT simulation platform.
-- [Empire](https://github.com/BC-SECURITY/Empire) - Post-exploitation framework with PowerShell, Python, and C# agents.
-- [Metasploit Framework](https://www.metasploit.com/) - Penetration testing and exploit development framework.
-- [Sliver](https://github.com/BishopFox/sliver) - Cross-platform red team framework.
+- [MITRE ATT&CK Navigator](https://attack.mitre.org/resources/attack-navigator/) – Visualize and plan ATT&CK matrices.
+- [CALDERA](https://github.com/mitre/caldera) – Automated adversary emulation system by MITRE.
+- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) – ATT&CK-based test cases.
+- [Cobalt Strike](https://www.cobaltstrike.com/) – Commercial adversary emulation platform.
+- [Sliver](https://github.com/BishopFox/sliver) – Open-source red team C2 and implants.
+- [Metasploit Framework](https://github.com/rapid7/metasploit-framework) – Exploit and post-exploitation framework.
+- [Red Team Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit) – Collection of red team tools.
+- [Red Hunt Labs APT Simulator](https://github.com/redhuntlabs/APTSimulator) – Windows APT activity simulator.
+- [AttackIQ](https://www.attackiq.com/) – Commercial adversary emulation platform.
+- [SafeBreach](https://www.safebreach.com/) – Continuous breach validation platform.
+- [Picus Security](https://www.picussecurity.com/) – Threat-based security validation.
+- [ThreatQ](https://www.threatq.com/) – Threat intelligence integrated simulation platform.
+
+---
 
 ### Initial Access
 
-- [Gophish](https://getgophish.com/) - Open-source phishing toolkit.
-- [King Phisher](https://github.com/securestate/king-phisher) - Phishing campaign toolkit.
-- [Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-engineer-toolkit) - Social engineering attack tools.
-- [ReelPhish](https://github.com/ryhanson/ReelPhish) - Real-time two-factor phishing tool.
-- [GoFetch](https://github.com/ActiveDirectoryAttackToolbox/GoFetch) - Automates attack techniques in Active Directory.
+- [Gophish](https://github.com/gophish/gophish) – Open-source phishing toolkit.
+- [King Phisher](https://github.com/securestate/king-phisher) – Phishing campaign tool.
+- [Social-Engineer Toolkit](https://github.com/trustedsec/social-engineer-toolkit) – Social engineering attack framework.
+- [ReelPhish](https://github.com/fireeye/ReelPhish) – Real-time two-factor phishing tool.
+- [Evilginx2](https://github.com/kgretzky/evilginx2) – Reverse proxy phishing framework.
+- [MailSniper](https://github.com/dafthack/MailSniper) – Email reconnaissance and phishing tool.
+- [Phishery](https://github.com/ryhanson/phishery) – Simple phishing credential harvester.
+- [Modlishka](https://github.com/drk1wi/Modlishka) – Advanced reverse proxy phishing tool.
+
+---
 
 ### Persistence
 
-- [Impacket](https://github.com/SecureAuthCorp/impacket) - Python classes for network protocols, credential theft, persistence.
-- [PowerSploit](https://github.com/PowerShellMafia/PowerSploit) - PowerShell post-exploitation modules.
-- [SharPersist](https://github.com/SharPersist/SharPersist) - Windows persistence toolkit (C#).
-- [WMI Backdoor](https://github.com/joelittlejohn/wmi-exec) - WMI-based persistence backdoor.
-- [PoshC2](https://github.com/nettitude/PoshC2) - PowerShell and Python C2 framework with persistence.
+- [Impacket](https://github.com/fortra/impacket) – Network protocol toolkit often used for credential access and persistence.
+- [PowerSploit](https://github.com/PowerShellMafia/PowerSploit) – PowerShell post-exploitation modules.
+- [SharPersist](https://github.com/mandiant/SharPersist) – Windows persistence toolkit.
+- [WMIExec](https://github.com/fortra/impacket/blob/master/examples/wmiexec.py) – WMI-based execution and persistence.
+- [DLL Hijacking](https://attack.mitre.org/techniques/T1574/) – DLL search order hijacking reference.
+- [Startup Folder Persistence](https://attack.mitre.org/techniques/T1547/001/) – Startup folder persistence technique.
+- [Scheduled Tasks](https://attack.mitre.org/techniques/T1053/) – Scheduled task persistence reference.
+- [Service Registry Persistence](https://attack.mitre.org/techniques/T1543/) – Windows service persistence.
+
+---
 
 ### Lateral Movement
 
-- [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) - Swiss army knife for Windows environments.
-- [BloodHound](https://github.com/BloodHoundAD/BloodHound) - Active Directory relationship analysis and attack path discovery.
-- [Mimikatz](https://github.com/gentilkiwi/mimikatz) - Extract credentials and keys from Windows systems.
-- [PsExec](https://learn.microsoft.com/en-us/sysinternals/downloads/psexec) - Execute processes on remote systems.
-- [Lateral Movement Toolkit (LMT)](https://github.com/ActiveDirectoryAttackToolbox/LateralMovementToolkit) - Collection of tools for lateral movement.
+- [CrackMapExec](https://github.com/Porchetta-Industries/CrackMapExec) – Swiss army knife for Windows network environments.
+- [BloodHound](https://github.com/BloodHoundAD/BloodHound) – Active Directory relationship and attack path analysis.
+- [Mimikatz](https://github.com/gentilkiwi/mimikatz) – Credential extraction and privilege escalation tool.
+- [PsExec](https://learn.microsoft.com/en-us/sysinternals/downloads/psexec) – Execute processes on remote Windows systems.
+- [Impacket SMBExec](https://github.com/fortra/impacket) – Remote command execution over SMB.
+- [Responder](https://github.com/lgandx/Responder) – LLMNR/NBT-NS poisoning and credential capture.
+- [PowerView](https://github.com/PowerShellMafia/PowerSploit/tree/master/Recon) – Active Directory reconnaissance framework.
+- [SharpHound](https://github.com/BloodHoundAD/SharpHound) – Data collector for BloodHound.
+- [Rubeus](https://github.com/GhostPack/Rubeus) – Kerberos abuse and ticket manipulation.
+- [Kerbrute](https://github.com/ropnop/kerbrute) – Kerberos brute force and enumeration tool.
+
+---
 
 ### Command & Control
 
-- [Covenant](https://github.com/cobbr/Covenant) - .NET-based C2 framework.
-- [DeimosC2](https://github.com/ThakeeNathees/deimosC2) - Modular cross-platform C2 framework.
-- [Merlin](https://github.com/Ne0nd0g/merlin) - Cross-platform HTTP/2 C2.
-- [PoshC2](https://github.com/nettitude/PoshC2) - PowerShell and Python-based C2 framework.
-- [Havoc](https://github.com/LOKI-Attack/Havoc) - Modern malleable post-exploitation framework.
+- [Covenant](https://github.com/cobbr/Covenant) – .NET based C2 framework.
+- [Havoc](https://github.com/HavocFramework/Havoc) – Modern and modular post-exploitation framework.
+- [Merlin](https://github.com/Ne0nd0g/merlin) – HTTP/2 based cross-platform C2.
+- [PoshC2](https://github.com/nettitude/PoshC2) – PowerShell and Python command and control framework.
+- [Mythic](https://github.com/its-a-feature/Mythic) – Collaborative red teaming platform.
+- [DeimosC2](https://github.com/DeimosC2/DeimosC2) – Modular cross-platform C2.
+- [TrevorC2](https://github.com/trustedsec/trevorc2) – Legitimate website based C2 channel.
+- [QuasarRAT](https://github.com/quasar/Quasar) – Remote administration and C2 tool.
+- [AsyncRAT](https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp) – Open-source remote access tool.
+- [Sliver](https://github.com/BishopFox/sliver) – Cross-platform implant and C2 framework.
+
+---
 
 ### Data Exfiltration
 
-- [DNSExfiltrator](https://github.com/sensepost/dnsexfiltrator) - Exfiltrate data over DNS.
-- [Cloakify](https://github.com/feross/Cloakify) - Transform data into innocuous text.
-- [Egress-Assess](https://github.com/ActiveDirectoryAttackToolbox/Egress-Assess) - Test egress data paths.
-- [DET](https://github.com/DetectionLab/DET) - Data Exfiltration Toolkit.
-- [TrevorC2](https://github.com/mandiant/TrevorC2) - Legitimate website-based C2 for bypassing restrictions.
+- [DNSExfiltrator](https://github.com/Arno0x/DNSExfiltrator) – Data exfiltration over DNS queries.
+- [DET](https://github.com/sensepost/DET) – Data exfiltration toolkit.
+- [Cloakify](https://github.com/TryCatchHCF/Cloakify) – Transform data into harmless looking text.
+- [Egress-Assess](https://github.com/FortyNorthSecurity/Egress-Assess) – Test outbound data paths.
+- [Iodine](https://github.com/yarrick/iodine) – IP over DNS tunneling.
+- [DNScat2](https://github.com/iagox86/dnscat2) – Encrypted DNS command and control tunnel.
+- [Ptunnel](https://github.com/utoni/ptunnel-ng) – ICMP tunneling tool.
+- [Rclone](https://github.com/rclone/rclone) – Cloud storage synchronization and transfer.
+- [Exfil](https://github.com/moloch--/exfil) – File exfiltration over multiple channels.
+- [Dropzone](https://github.com/Arno0x/Dropzone) – Covert file transfer utility.
 
 ---
 
@@ -95,61 +131,106 @@ Tools and frameworks for simulating APT attack chains
 
 ### Threat Hunting
 
-- [MISP](https://www.misp-project.org/) - Threat intelligence sharing platform.
-- [OpenCTI](https://www.opencti.io/) - Open-source threat intelligence platform.
-- [ThreatHunter-Playbook](https://github.com/OTRF/ThreatHunter-Playbook) - Threat hunting playbooks and detection rules.
-- [YARA](https://virustotal.github.io/yara/) - Pattern matching tool for identifying malware.
-- [Sigma](https://github.com/SigmaHQ/sigma) - Generic signature format for SIEM systems.
-- [Cortex](https://www.cortex-ml.org/) - Observable analysis and active response engine.
+- [MISP](https://github.com/MISP/MISP) – Open threat intelligence sharing platform.
+- [OpenCTI](https://github.com/OpenCTI-Platform/opencti) – Cyber threat intelligence management.
+- [YARA](https://github.com/VirusTotal/yara) – Pattern matching for malware detection.
+- [Sigma](https://github.com/SigmaHQ/sigma) – Generic signature format for SIEM systems.
+- [Cortex](https://github.com/TheHive-Project/Cortex) – Observable analysis and response engine.
+- [TheHive](https://github.com/TheHive-Project/TheHive) – Security incident response platform.
+- [ThreatHunter Playbook](https://github.com/Cyb3rWard0g/ThreatHunter-Playbook) – Threat hunting methodology and analytics.
+- [Maltego CE](https://www.maltego.com/) – Link analysis and OSINT platform.
+- [Security Onion](https://github.com/Security-Onion-Solutions/securityonion) – Threat hunting and network monitoring distro.
+- [GRR Rapid Response](https://github.com/google/grr) – Remote live forensics framework.
+
+---
 
 ### Behavioral Analysis
 
-- [Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon) - System activity monitoring for Windows.
-- [Osquery](https://osquery.io/) - SQL-powered OS instrumentation and analytics.
-- [GRR Rapid Response](https://github.com/google/grr) - Remote live forensics.
-- [Velociraptor](https://velociraptor.app/) - Advanced digital forensics & incident response.
-- [Elastic Endpoint Security](https://www.elastic.co/endpoint-security) - Endpoint prevention, detection, and response.
+- [Sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) – System activity monitoring for Windows.
+- [Osquery](https://github.com/osquery/osquery) – SQL-powered operating system instrumentation.
+- [Velociraptor](https://github.com/Velocidex/velociraptor) – Advanced digital forensics and incident response.
+- [GRR Rapid Response](https://github.com/google/grr) – Remote live forensics platform.
+- [Elastic Endpoint](https://www.elastic.co/security/endpoint-security) – Endpoint detection and prevention.
+- [Wazuh](https://github.com/wazuh/wazuh) – Open-source security monitoring and EDR.
+- [OSSEC](https://github.com/ossec/ossec-hids) – Host-based intrusion detection system.
+- [Falco](https://github.com/falcosecurity/falco) – Runtime security for containers and cloud.
+- [Sysdig Secure](https://sysdig.com/) – Container runtime security monitoring.
+- [Redline](https://fireeye.market/apps/211364) – Endpoint memory and behavioral analysis tool.
+
+---
 
 ### Network Analysis
 
-- [Zeek](https://zeek.org/) - Network security monitor.
-- [Suricata](https://suricata-ids.org/) - Network IDS/IPS/NSM engine.
-- [Wireshark](https://www.wireshark.org/) - Network protocol analyzer.
-- [Moloch](https://molo.ch/) - Large-scale packet capture & indexing.
-- [Snort](https://www.snort.org/) - Open-source network intrusion detection.
+- [Zeek](https://github.com/zeek/zeek) – Network security monitoring platform.
+- [Suricata](https://github.com/OISF/suricata) – High-performance IDS/IPS engine.
+- [Wireshark](https://github.com/wireshark/wireshark) – Network protocol analyzer.
+- [Snort](https://github.com/snort3/snort3) – Open-source intrusion detection system.
+- [Arkime](https://github.com/arkime/arkime) – Large-scale packet capture and search.
+- [ntopng](https://github.com/ntop/ntopng) – Network traffic analysis and monitoring.
+- [NetworkMiner](https://www.netresec.com/?page=NetworkMiner) – Network forensic analysis tool.
+- [Brim](https://github.com/brimdata/brim) – Desktop network traffic analysis.
+- [tcpdump](https://www.tcpdump.org/) – Command-line packet analyzer.
+- [Corelight](https://corelight.com/) – Enterprise Zeek-based network detection.
+
+---
 
 ### Memory Forensics
 
-- [Volatility](https://www.volatilityfoundation.org/) - Memory forensics framework.
-- [Rekall](http://www.rekall-forensic.com/) - Memory forensic framework.
-- [WinPmem](https://github.com/Velocidex/WinPmem) - Windows memory acquisition.
-- [LiME](https://github.com/504ensicsLabs/LiME) - Linux memory extractor.
-- [Redline](https://www.fireeye.com/services/freeware/redline.html) - Memory analysis for threat hunting.
+- [Volatility](https://github.com/volatilityfoundation/volatility) – Advanced memory forensics framework.
+- [Volatility3](https://github.com/volatilityfoundation/volatility3) – Modern memory analysis platform.
+- [Rekall](https://github.com/google/rekall) – Memory forensic framework.
+- [WinPmem](https://github.com/Velocidex/WinPmem) – Windows memory acquisition.
+- [LiME](https://github.com/504ensicsLabs/LiME) – Linux memory extractor.
+- [Redline](https://fireeye.market/apps/211364) – Memory analysis and threat detection.
+- [Memoryze](https://www.fireeye.com/services/freeware/memoryze.html) – Malware memory analysis.
+- [DumpIt](https://www.comae.com/dumpit/) – Memory acquisition utility.
+- [Belkasoft RAM Capturer](https://belkasoft.com/ram-capturer) – Live RAM capture tool.
+- [Magnet RAM Capture](https://www.magnetforensics.com/resources/magnet-ram-capture/) – Free memory capture utility.
+
+---
 
 ### Malware Analysis
 
-- [Ghidra](https://ghidra-sre.org/) - Software reverse engineering suite.
-- [IDA Pro](https://www.hex-rays.com/products/ida/) - Interactive disassembler & debugger.
-- [Cuckoo Sandbox](https://cuckoosandbox.org/) - Automated malware analysis.
-- [CAPE Sandbox](https://github.com/ctxis/CAPE) - Malware configuration & payload extraction.
-- [PE-sieve](https://github.com/hasherezade/pe-sieve) - Scans running processes for malware traces.
-- [Malwarebytes](https://www.malwarebytes.com/) - Endpoint anti-malware software.
+- [Ghidra](https://github.com/NationalSecurityAgency/ghidra) – Software reverse engineering suite.
+- [IDA Free](https://hex-rays.com/ida-free/) – Interactive disassembler and debugger.
+- [Cutter](https://github.com/rizinorg/cutter) – GUI reverse engineering platform.
+- [Radare2](https://github.com/radareorg/radare2) – Reverse engineering framework.
+- [Cuckoo Sandbox](https://github.com/cuckoosandbox/cuckoo) – Automated malware analysis.
+- [CAPE Sandbox](https://github.com/kevoreilly/CAPEv2) – Malware configuration extraction.
+- [Any.Run](https://any.run/) – Interactive online malware sandbox.
+- [Hybrid Analysis](https://www.hybrid-analysis.com/) – Online malware analysis platform.
+- [PE-sieve](https://github.com/hasherezade/pe-sieve) – Detect injected malware in processes.
+- [x64dbg](https://github.com/x64dbg/x64dbg) – Open-source Windows debugger.
+
+---
 
 ### Endpoint Detection & Response
 
-- [Wazuh](https://wazuh.com/) - Open-source security monitoring.
-- [Elastic Security](https://www.elastic.co/security) - Open-source SIEM & endpoint security.
-- [OSSEC](https://www.ossec.net/) - Host-based intrusion detection system.
-- [CrowdStrike Falcon](https://www.crowdstrike.com/) - Cloud-native endpoint protection.
-- [Microsoft Defender for Endpoint](https://www.microsoft.com/en-us/security/business/threat-protection/microsoft-defender-endpoint) - Enterprise endpoint security.
+- [Wazuh](https://github.com/wazuh/wazuh) – Open-source SIEM and EDR platform.
+- [Elastic Security](https://github.com/elastic/security) – Open-source endpoint and SIEM.
+- [OSQuery Fleet](https://github.com/fleetdm/fleet) – Device fleet monitoring and endpoint visibility.
+- [CrowdStrike Falcon](https://www.crowdstrike.com/) – Cloud-native endpoint protection.
+- [Microsoft Defender for Endpoint](https://www.microsoft.com/security/business/endpoint-security) – Enterprise endpoint security.
+- [SentinelOne](https://www.sentinelone.com/) – Autonomous AI endpoint protection.
+- [Sophos Intercept X](https://www.sophos.com/) – Advanced endpoint defense.
+- [Bitdefender GravityZone](https://www.bitdefender.com/) – Endpoint protection platform.
+- [Trend Micro Apex One](https://www.trendmicro.com/) – Endpoint detection and response.
+- [Kaspersky Endpoint Security](https://www.kaspersky.com/) – Enterprise endpoint protection.
+
+---
 
 ### Threat Intelligence Platforms
 
-- [MISP](https://www.misp-project.org/) - Open-source threat intelligence platform.
-- [OpenCTI](https://www.opencti.io/) - Open-source platform for threat intelligence.
-- [ThreatConnect](https://threatconnect.com/) - Threat intelligence platform.
-- [Anomali](https://www.anomali.com/) - Threat intelligence & security operations platform.
-- [Recorded Future](https://www.recordedfuture.com/) - Threat intelligence platform.
+- [MISP](https://github.com/MISP/MISP) – Open threat intelligence sharing platform.
+- [OpenCTI](https://github.com/OpenCTI-Platform/opencti) – Cyber threat intelligence management.
+- [ThreatConnect](https://threatconnect.com/) – Threat intelligence operations platform.
+- [Anomali](https://www.anomali.com/) – Threat intelligence and analytics.
+- [Recorded Future](https://www.recordedfuture.com/) – Real-time threat intelligence.
+- [IBM X-Force Exchange](https://exchange.xforce.ibmcloud.com/) – Threat intelligence sharing.
+- [AlienVault OTX](https://otx.alienvault.com/) – Open threat intelligence community.
+- [VirusTotal Intelligence](https://www.virustotal.com/) – Malware intelligence and analysis.
+- [GreyNoise](https://www.greynoise.io/) – Internet background noise intelligence.
+- [MalwareBazaar](https://bazaar.abuse.ch/) – Malware sample sharing platform.
 
 ---
 
@@ -157,58 +238,106 @@ Tools and frameworks for simulating APT attack chains
 
 ### Operating Systems
 
-- [Kali Linux](https://www.kali.org/) - Penetration testing and security research.
-- [Parrot Security OS](https://www.parrotsec.org/) - Security Linux distro.
-- [REMnux](https://remnux.org/) - Linux toolkit for reverse-engineering malware.
-- [Flare VM](https://www.fireeye.com/services/freeware/flare-vm.html) - Windows malware analysis environment.
-- [SIFT Workstation](https://digital-forensics.sans.org/community/downloads) - Forensics & incident response.
+- [Kali Linux](https://www.kali.org/) – Penetration testing and security auditing distribution.
+- [Parrot Security OS](https://parrotsec.org/) – Security-focused GNU/Linux distribution.
+- [BlackArch](https://blackarch.org/) – Arch Linux based penetration testing distro.
+- [REMnux](https://remnux.org/) – Linux toolkit for reverse engineering and malware analysis.
+- [Flare VM](https://github.com/mandiant/flare-vm) – Windows malware analysis environment.
+- [SIFT Workstation](https://www.sans.org/tools/sift-workstation/) – Digital forensics and incident response distro.
+- [Tsurugi Linux](https://tsurugi-linux.org/) – DFIR and OSINT focused Linux distribution.
+- [CAINE](https://www.caine-live.net/) – Computer Aided Investigative Environment.
+- [BackBox](https://www.backbox.org/) – Ubuntu-based security distribution.
+- [Security Onion](https://securityonionsolutions.com/) – Network security monitoring OS.
+
+---
 
 ### Starter Packs
 
-- [APT Simulator](https://github.com/your-repo/APT-Simulator) - Windows batch scripts to simulate APT activities.
-- [Red Team Automation (RTA)](https://github.com/mandiant/RTA) - Scripts to detect malicious actions.
-- [PurpleSharp](https://github.com/microsoft/purplesharp) - C# adversary simulation tool.
-- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - Portable tests for security controls.
+- [APT Simulator](https://github.com/NextronSystems/APTSimulator) – Windows batch script simulating APT activities.
+- [Red Team Automation](https://github.com/endgameinc/RTA) – Scripts to simulate attacker techniques.
+- [PurpleSharp](https://github.com/mvelazc0/PurpleSharp) – C# adversary simulation tool.
+- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) – Portable atomic security tests.
+- [Invoke-AtomicRedTeam](https://github.com/redcanaryco/invoke-atomicredteam) – PowerShell runner for Atomic tests.
+- [DetectionLab](https://github.com/clong/DetectionLab) – Prebuilt blue team lab environment.
+- [Threat Hunter Playbook Labs](https://github.com/Cyb3rWard0g/ThreatHunter-Playbook) – Hunting lab scenarios.
+- [Security Blue Team Toolkit](https://github.com/securityblueprint/tools) – Defensive security tool collection.
+- [Red Team Field Manual](https://github.com/infosecn1nja/Red-Teaming-Toolkit) – Red team reference toolkit.
+- [Blue Team Handbook Tools](https://github.com/0x4D31/awesome-threat-detection) – Blue team tool references.
+
+---
 
 ### Tutorials & Courses
 
-- [MITRE ATT&CK Training](https://attack.mitre.org/resources/training/) - Official ATT&CK training.
-- [Cybrary APT Courses](https://www.cybrary.it) - APT courses and training.
-- [SANS SEC565](https://www.sans.org/cyber-security-courses/red-team-exercises-adversary-emulation/) - Red Team exercises.
-- [Pluralsight](https://www.pluralsight.com/) - APT learning paths.
-- [Coursera](https://www.coursera.org/) - APT courses from universities.
+- [MITRE ATT&CK Training](https://attack.mitre.org/resources/training/) – Official ATT&CK learning resources.
+- [Cybrary](https://www.cybrary.it/) – Security training platform.
+- [SANS SEC565](https://www.sans.org/cyber-security-courses/red-team-exercises-adversary-emulation/) – Red team adversary emulation course.
+- [SANS SEC504](https://www.sans.org/cyber-security-courses/hacker-techniques-incident-handling/) – Incident handling course.
+- [Coursera Cybersecurity](https://www.coursera.org/browse/information-technology/cybersecurity) – University security courses.
+- [edX Cybersecurity](https://www.edx.org/learn/cybersecurity) – Academic cybersecurity programs.
+- [OpenSecurityTraining](https://opensecuritytraining.info/) – Free low-level security training.
+- [PentesterLab](https://pentesterlab.com/) – Hands-on penetration testing labs.
+- [Hack The Box Academy](https://academy.hackthebox.com/) – Structured security training.
+- [TryHackMe](https://tryhackme.com/) – Beginner-friendly security learning platform.
+
+---
 
 ### Lab Environments
 
-- [Detection Lab](https://github.com/clong/DetectionLab) - Vagrant & Packer scripts for security lab.
-- [Threat Hunter Playbook Labs](https://github.com/OTRF/ThreatHunter-Playbook) - Threat hunting labs.
-- [AD Security Lab](https://github.com/ADSecurityLab/AD-Security-Lab) - Active Directory security lab.
-- [Modern Windows Attacks Lab](https://github.com/RedTeamTools/ModernWindowsLab) - Windows attack & defense lab.
-- [Red Team Toolkit Lab](https://github.com/RedTeamTools/RedTeamLab) - Red team lab setup.
+- [DetectionLab](https://github.com/clong/DetectionLab) – Vagrant based security lab.
+- [Security Onion Lab](https://securityonionsolutions.com/) – Blue team monitoring lab.
+- [AD Security Lab](https://github.com/Orange-Cyberdefense/GOAD) – Active Directory attack/defense lab.
+- [Modern Windows Attacks Lab](https://github.com/chvancooten/maldev-for-dummies) – Windows attack scenarios.
+- [Purple Team Lab](https://github.com/WaterExecution/vulnerable-AD) – Attack and detection lab.
+- [Malware Traffic Analysis Lab](https://www.malware-traffic-analysis.net/) – Packet analysis exercises.
+- [Red Team Toolkit Lab](https://github.com/infosecn1nja/Red-Teaming-Toolkit) – Offensive lab tools.
+- [Blue Team Labs Online](https://blueteamlabs.online/) – DFIR and detection practice.
+- [RangeForce Community Edition](https://www.rangeforce.com/) – Security training simulator.
+- [CyberDefenders](https://cyberdefenders.org/) – Blue team challenge labs.
+
+---
 
 ### Websites & Blogs
 
-- [MITRE ATT&CK](https://attack.mitre.org/) - Knowledge base of adversary tactics.
-- [FireEye Threat Research](https://www.fireeye.com/blog/threat-research.html) - APT research and reports.
-- [CrowdStrike Threat Intelligence](https://www.crowdstrike.com/resources/) - Threat intelligence.
-- [Kaspersky Threat Intelligence](https://ics.kaspersky.com/) - APT reports & research.
-- [Mandiant Threat Intelligence](https://www.mandiant.com/resources) - APT insights & reports.
+- [MITRE ATT&CK](https://attack.mitre.org/) – Adversary tactics and techniques knowledge base.
+- [Mandiant Threat Intelligence](https://www.mandiant.com/resources) – APT reports and research.
+- [CrowdStrike Blog](https://www.crowdstrike.com/blog/) – Threat intelligence articles.
+- [Kaspersky Securelist](https://securelist.com/) – Malware and APT analysis.
+- [The DFIR Report](https://thedfirreport.com/) – Incident response case studies.
+- [Red Canary Blog](https://redcanary.com/blog/) – Threat detection research.
+- [FireEye Blog](https://www.fireeye.com/blog.html) – Advanced threat research.
+- [Unit 42](https://unit42.paloaltonetworks.com/) – Palo Alto threat intelligence.
+- [Talos Intelligence](https://blog.talosintelligence.com/) – Cisco threat research.
+- [BleepingComputer](https://www.bleepingcomputer.com/) – Security news and incident coverage.
+
+---
 
 ### Wikis & Knowledge Bases
 
-- [APT Notes](https://github.com/ytisf/AptNotes) - Public APT reports collection.
-- [APT Groups and Operations](https://github.com/ytisf/AptGroups) - Spreadsheet tracking APT groups.
-- [Threat Actor Encyclopedia](https://threat-actors.github.io/) - Database of threat actors.
-- [Malpedia](https://malpedia.caad.fkie.fraunhofer.de/) - Rapid malware identification.
-- [VirusTotal Intelligence](https://www.virustotal.com/) - Malware intelligence and hunting.
+- [APT Notes](https://github.com/aptnotes/data) – Collection of public APT reports.
+- [Malpedia](https://malpedia.caad.fkie.fraunhofer.de/) – Malware encyclopedia.
+- [Threat Actor Encyclopedia](https://attack.mitre.org/groups/) – Adversary group database.
+- [VirusTotal](https://www.virustotal.com/) – Malware scanning and intelligence.
+- [Hybrid Analysis](https://www.hybrid-analysis.com/) – Malware behavior database.
+- [Exploit Database](https://www.exploit-db.com/) – Public exploit archive.
+- [CVE Details](https://www.cvedetails.com/) – Vulnerability database.
+- [NVD](https://nvd.nist.gov/) – National vulnerability database.
+- [OWASP](https://owasp.org/) – Web security knowledge base.
+- [Security Wiki](https://www.securitywiki.org/) – General security knowledge.
+
+---
 
 ### Analysis Reports
 
-- [APT Reports Archive](https://www.fireeye.com/enterprise/threat-research.html) - Collection of APT reports.
-- [Threat Miner](https://www.threatminer.org/) - Threat intelligence portal.
-- [AlienVault OTX](https://otx.alienvault.com/) - Open threat intelligence community.
-- [ThreatConnect Report Library](https://threatconnect.com/) - APT analysis & reports.
-- [Recorded Future Insights](https://www.recordedfuture.com/) - Threat intelligence insights.
+- [APT Reports Archive](https://github.com/aptnotes/data) – Aggregated APT reports.
+- [ThreatMiner](https://www.threatminer.org/) – Threat intelligence search engine.
+- [AlienVault OTX](https://otx.alienvault.com/) – Open threat intelligence community.
+- [Recorded Future Insights](https://www.recordedfuture.com/research/) – Threat intelligence reports.
+- [IBM X-Force Reports](https://www.ibm.com/security/xforce) – Security intelligence index.
+- [Google Threat Analysis Group](https://blog.google/threat-analysis-group/) – State-sponsored threat research.
+- [Microsoft Security Blog](https://www.microsoft.com/security/blog/) – Incident and threat research.
+- [Secureworks CTU](https://www.secureworks.com/research) – Counter threat research.
+- [ESET Research](https://www.welivesecurity.com/) – Malware and APT studies.
+- [Check Point Research](https://research.checkpoint.com/) – Threat intelligence publications.
 
 ## LICENSE
 
