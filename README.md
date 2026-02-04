@@ -1,10 +1,10 @@
-# Awesome APT [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/your-repo) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome APT[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of Advanced Persistent Threat (APT) frameworks, tools, resources, software, and tutorials. This list aims to help security researchers, threat hunters, and defenders find everything related to APT attacks and defense in one place.
 
 ## Contributing
 
-Please take a quick look at the [contribution guidelines](https://github.com/your-repo/CONTRIBUTING.md) first.  
+Please take a quick look at the [contribution guidelines](https://github.com/ADA-XiaoYao/awesome-APTCONTRIBUTING.md) first.  
 
 If you know a tool that isn't present here, feel free to open a pull request.
 
