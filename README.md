@@ -35,6 +35,7 @@ It takes time to build up a collection of tools used in APT research and remembe
   - [Websites & Blogs](#websites--blogs)
   - [Wikis & Knowledge Bases](#wikis--knowledge-bases)
   - [Analysis Reports](#analysis-reports)
+  - [Advanced & Unique Resources](#Advanced--Unique-Resources)
 ---
 
 ## Attack Simulation
@@ -328,17 +329,116 @@ It takes time to build up a collection of tools used in APT research and remembe
 
 ### Analysis Reports
 
-- [APT Reports Archive](https://github.com/aptnotes/data) – Aggregated APT reports.
-- [ThreatMiner](https://www.threatminer.org/) – Threat intelligence search engine.
-- [AlienVault OTX](https://otx.alienvault.com/) – Open threat intelligence community.
-- [Recorded Future Insights](https://www.recordedfuture.com/research/) – Threat intelligence reports.
-- [IBM X-Force Reports](https://www.ibm.com/security/xforce) – Security intelligence index.
-- [Google Threat Analysis Group](https://blog.google/threat-analysis-group/) – State-sponsored threat research.
-- [Microsoft Security Blog](https://www.microsoft.com/security/blog/) – Incident and threat research.
-- [Secureworks CTU](https://www.secureworks.com/research) – Counter threat research.
-- [ESET Research](https://www.welivesecurity.com/) – Malware and APT studies.
-- [Check Point Research](https://research.checkpoint.com/) – Threat intelligence publications.
+#### Annual / Global Threat Reports
 
+- [Mandiant M-Trends](https://www.mandiant.com/resources/m-trends) – Annual global cyber threat and incident response report.
+- [CrowdStrike Global Threat Report](https://www.crowdstrike.com/global-threat-report/) – Yearly adversary and intrusion trends analysis.
+- [Microsoft Digital Defense Report](https://www.microsoft.com/security/business/microsoft-digital-defense-report) – Global cybercrime and nation-state threat overview.
+- [Cisco Talos Annual Threat Report](https://blog.talosintelligence.com/) – Enterprise threat intelligence insights.
+- [IBM X-Force Threat Intelligence Index](https://www.ibm.com/security/xforce) – Global attack statistics and threat patterns.
+- [Kaspersky Security Bulletin](https://securelist.com/category/reports/) – Malware and APT yearly analysis.
+- [Palo Alto Unit 42 Threat Reports](https://unit42.paloaltonetworks.com/category/reports/) – Nation-state and targeted attack studies.
+- [ESET Threat Report](https://www.eset.com/int/threat-center/threat-reports/) – Quarterly and annual malware/APT trends.
+- [Trend Micro Annual Cybersecurity Report](https://www.trendmicro.com/en_us/research.html) – Global enterprise threat landscape.
+- [Sophos Threat Report](https://www.sophos.com/en-us/threat-report) – Enterprise defense and attack evolution analysis.
+
+#### Targeted & Thematic APT Reports
+
+- [FireEye Mandiant Threat Intelligence Reports](https://www.mandiant.com/resources/threat-intelligence) – In-depth targeted attack and APT group analysis reports.
+- [Kaspersky Threat Intelligence Reports](https://securelist.com/threat-intelligence/) – APT campaigns, malware trends, and strategic threat analysis.
+- [Symantec (Broadcom) Threat Intelligence](https://www.broadcom.com/company/newsroom/press-releases?cat=threat-intelligence) – Global threat activity and APT research publications.
+- [Recorded Future Threat Intelligence Reports](https://www.recordedfuture.com/threat-intelligence/reports/) – Nation-state actor tracking and campaign analysis.
+- [Google Threat Analysis Group (TAG)](https://blog.google/threat-analysis-group/) – Advanced persistent threat investigations and security disclosures.
+- [CERT/CC Vulnerability Notes & Reports](https://www.kb.cert.org/) – Coordinated vulnerability disclosures and incident reports.
+- [CISA / US-CERT Advisories](https://www.cisa.gov/uscert/) – Critical infrastructure alerts and APT-related advisories.
+- [Dragonfly (Energetic Bear) Case Study – Unit42](https://unit42.paloaltonetworks.com/dragonfly-apt-energetic-bear/) – Detailed analysis of the Dragonfly APT group operations.
+- [APT29 (Cozy Bear) Analysis – Securelist](https://securelist.com/apt29-cozy-bear/) – Behavioral and operational analysis of APT29 campaigns.
+- [Operation Aurora Technical Analysis – Google](https://research.google/2010/01/behind-operation-aurora/) – Historical deep dive into the Operation Aurora intrusion campaign.
+
+#### Vendor & Red Team Case Studies
+
+- [BlackBerry Cylance Threat Research](https://www.cylance.com/en_us/why-cylance/blog.html) – Threat research, malware behavior studies, and adversary techniques.
+- [Palo Alto Networks Unit 42 Blog](https://unit42.paloaltonetworks.com/) – Advanced threat intelligence and malware reverse-engineering reports.
+- [Cisco Talos Intelligence Blog](https://blog.talosintelligence.com/) – Attack trend monitoring and technical breakdowns.
+- [Kaspersky Securelist Technical Reports](https://securelist.com/) – Malware deep dives and APT campaign investigations.
+- [SANS Internet Storm Center](https://isc.sans.edu/) – Daily security event analysis and emerging threat monitoring.
+- [Red Canary Threat Detection Reports](https://redcanary.com/blog/) – Detection strategies and real-world incident case studies.
+
+#### Academic & Research Papers
+
+- [IEEE Xplore – Cybersecurity Papers](https://ieeexplore.ieee.org/) – Large collection of peer-reviewed cybersecurity and threat research papers.
+- [ACM Digital Library – Security & Privacy](https://dl.acm.org/) – Academic publications on computer security and privacy.
+- [USENIX Security Symposium Papers](https://www.usenix.org/conference/usenixsecurity) – Top-tier security research conference papers.
+- [NDSS Symposium Papers](https://www.ndss-symposium.org/ndss-program/) – Network and Distributed System Security research.
+- [arXiv – Cryptography and Security](https://arxiv.org/list/cs.CR/recent) – Open access preprints on security research.
+- [Google Scholar – APT Research](https://scholar.google.com/) – Academic search engine for threat and APT studies.
+- [ResearchGate – Cybersecurity](https://www.researchgate.net/) – Research sharing platform for academic papers.
+- [Springer – Computer Security](https://link.springer.com/search?facet-discipline=%22Computer+Science%22&facet-sub-discipline=%22Security+and+Privacy%22) – Books and journals on information security.
+- [Elsevier – Computers & Security Journal](https://www.journals.elsevier.com/computers-and-security) – Peer-reviewed journal on cybersecurity.
+- [IACR ePrint Archive](https://eprint.iacr.org/) – Cryptography and applied security research archive.
+
+#### Government & CERT Reports
+
+- [CISA Cybersecurity Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories) – Official U.S. government vulnerability and threat advisories.
+- [NCSC UK Reports](https://www.ncsc.gov.uk/section/reports-guidance/reports) – UK National Cyber Security Centre threat and incident reports.
+- [ENISA Threat Landscape](https://www.enisa.europa.eu/publications) – European Union cybersecurity threat landscape analysis.
+- [CERT-EU Security Advisories](https://cert.europa.eu/publications/security-advisories) – EU institutional incident and vulnerability advisories.
+- [JPCERT/CC Reports](https://www.jpcert.or.jp/english/) – Japanese incident response and threat analysis publications.
+- [ANSSI Publications](https://www.ssi.gouv.fr/en/publication/) – French national cybersecurity agency reports.
+- [Australian Cyber Security Centre (ACSC)](https://www.cyber.gov.au/acsc/view-all-content/reports) – National cyber threat and incident reports.
+- [NIST Computer Security Publications](https://csrc.nist.gov/publications) – U.S. standards, frameworks, and security guidelines.
+- [Canadian Centre for Cyber Security](https://www.cyber.gc.ca/en/publications) – National alerts, advisories, and research.
+- [Singapore CSA Reports](https://www.csa.gov.sg/alerts-advisories) – National cybersecurity advisories and annual reviews.
+
+#### Datasets & Threat Feeds
+
+- [VirusTotal Public Datasets](https://www.virustotal.com/gui/home/upload) – Malware samples, hashes, and behavioral intelligence.
+- [MalwareBazaar](https://bazaar.abuse.ch/) – Public malware sample sharing platform.
+- [Abuse.ch Threat Feeds](https://abuse.ch/) – IOC feeds including URLhaus, SSLBL, and Feodo Tracker.
+- [AlienVault OTX Pulses](https://otx.alienvault.com/) – Community-driven threat intelligence pulses and indicators.
+- [GreyNoise Intelligence](https://www.greynoise.io/) – Internet background noise and scanner activity data.
+- [Shodan](https://www.shodan.io/) – Internet-connected device intelligence and exposure data.
+- [Censys](https://search.censys.io/) – Internet-wide scanning datasets and certificates.
+- [The Zoo Malware Repository](https://github.com/ytisf/theZoo) – Open malware sample repository for research.
+- [Open Threat Exchange API](https://otx.alienvault.com/api) – Programmatic access to threat indicators.
+- [CIRCL Passive DNS](https://www.circl.lu/services/passive-dns/) – Passive DNS historical datasets.
+
+#### Advanced & Unique Resources
+
+- [Original Security Research Papers](#) – In-depth vulnerability analysis, exploit chains, and defensive methodologies authored by the repository owner.
+- [Automation Toolkits](#) – Custom penetration testing scripts, scanners, and workflow automation utilities.
+- [Red / Blue Team Playbooks](#) – Tactical guides for attack simulation and defense response.
+- [CTF Practice Labs](#) – Self-built vulnerable environments with walkthroughs and solution write-ups.
+- [Code Audit Checklists](#) – Practical auditing standards, secure coding references, and real-world case studies.
+- [Security Framework Templates](#) – Policy, compliance, and governance document templates for organizations.
+- [AI-Assisted Security Tools](#) – Experimental ML / AI models for anomaly detection, log analysis, and threat prediction.
+- [Plugin & Extension Ecosystem](#) – Community-driven add-ons and integrations expanding core tools.
+- [API & SDK Access](#) – Programmable interfaces for automation, data retrieval, and third-party integrations.
+- [Private Research Notes](#) – Exclusive technical notes, exploit PoCs, and methodology breakdowns.
+
+
+#### Professional & Commercial Extensions
+
+- [Enterprise Training Programs](#) – Structured corporate cybersecurity courses and customized learning paths.
+- [Certification Paths](#) – Skill verification systems and internal certification standards.
+- [Consulting & Technical Support](#) – Direct expert assistance and long-term advisory services.
+- [Private Knowledge Base](#) – Members-only advanced materials, toolkits, and premium guides.
+- [Security Tool Licensing](#) – Commercial licensing for proprietary scanners and frameworks.
+- [Bug Bounty Collaboration Hub](#) – Organized vulnerability research and coordinated disclosure channels.
+- [Research Sponsorship Opportunities](#) – Funded research topics and partnership initiatives.
+- [Contribution Reward System](#) – Incentive mechanisms for active contributors and maintainers.
+
+
+#### Community & Growth Layer
+
+- [Monthly Security Reports](#) – Trend summaries, vulnerability statistics, and threat landscape analysis.
+- [Discussion Forum / Discord / Telegram](#) – Centralized communication platforms for collaboration.
+- [Contributor Leaderboard](#) – Public recognition and ranking of top contributors.
+- [Events & Workshops](#) – Online webinars, offline meetups, and technical workshops.
+- [Newsletter Subscription](#) – Periodic curated updates, announcements, and featured research.
+- [Community Challenges](#) – Regular technical challenges and mini-CTF events.
+- [Open Governance Board](#) – Transparent decision-making structure for community direction.
+- [Mentorship Program](#) – Guidance channels connecting beginners with experienced researchers.
 ## LICENSE
 
 CC0
