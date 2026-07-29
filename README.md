@@ -43,6 +43,7 @@ It takes time to build up a collection of tools used in APT research and remembe
 ### Frameworks & Platforms
 
 - [MITRE ATT&CK Navigator](https://attack.mitre.org/resources/attack-navigator/) – Visualize and plan ATT&CK matrices.
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) – Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes.
 - [CALDERA](https://github.com/mitre/caldera) – Automated adversary emulation system by MITRE.
 - [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) – ATT&CK-based test cases.
 - [Cobalt Strike](https://www.cobaltstrike.com/) – Commercial adversary emulation platform.
