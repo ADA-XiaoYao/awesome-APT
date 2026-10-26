@@ -232,6 +232,7 @@ It takes time to build up a collection of tools used in APT research and remembe
 - [VirusTotal Intelligence](https://www.virustotal.com/) – Malware intelligence and analysis.
 - [GreyNoise](https://www.greynoise.io/) – Internet background noise intelligence.
 - [MalwareBazaar](https://bazaar.abuse.ch/) – Malware sample sharing platform.
+- [ICHI – Internet Cyber Health Index](https://ichi.global) – Free, source-transparent daily internet cyber-health barometer aggregating 40+ security data sources for ecosystem-level threat situational awareness.
 
 ---
 
